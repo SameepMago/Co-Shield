@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Co-Shield</string>
+    <string name="title_covid_tracker">Covid Tracker</string>
+    <string name="title_vaccine_certificate">Vaccine Certificate</string>
+    <string name="title_vaccine_finder">Vaccine Finder</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="backend_url">https://cdn-api.co-vin.in/api</string>
+    <string name="certi_instruction1"><b>1.</b> You must have already received at least one dose of vaccine.</string>
+    <string name="certi_instruction2"><b>2.</b> You must have the 13/14 Digit Beneficiary ID with you.</string>
+    <string name="mobile_number">Please Enter the mobile number by which you booked your vaccine slot.</string>
+    <string name="pin_code">Please Enter the Pin Code of your Locality to check Vaccine availability in your Area.</string>
+    <string name="beneficiary_instruction">Please enter the Beneficiary ID of the person.</string>
+    <string name="google_key">1087492088406-hhbc6r7r0sh7d621j9vj7csg170gkqu3.apps.googleusercontent.com</string>
+
+</resources>

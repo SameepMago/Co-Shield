@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_covid_tracker">
+
+    <fragment
+        android:id="@+id/navigation_covid_tracker"
+        android:name="com.ymca.co_shield.ui.covidTracker.CovidTrackerFragment"
+        android:label="@string/title_covid_tracker"
+        tools:layout="@layout/fragment_covid_tracker" />
+
+    <fragment
+        android:id="@+id/navigation_vaccine_certificate"
+        android:name="com.ymca.co_shield.ui.vaccineCertificate.VaccineCertificateFragment"
+        android:label="@string/title_vaccine_certificate"
+        tools:layout="@layout/vaccine_certificate" />
+
+    <fragment
+        android:id="@+id/navigation_vaccine_finder"
+        android:name="com.ymca.co_shield.ui.vaccineFinder.VaccineFinderFragment"
+        android:label="@string/title_vaccine_finder"
+        tools:layout="@layout/vaccine_finder" >
+        <action
+            android:id="@+id/action_navigation_vaccine_finder_to_navigation_vaccine_centers"
+            app:destination="@id/navigation_vaccine_centers" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_vaccine_centers"
+        android:name="com.ymca.co_shield.ui.vaccineCenters.VaccineCentersFragment"
+        android:label="Vaccine Centers"
+        tools:layout="@layout/fragment_vaccine_centres" >
+    <argument
+        android:name="pinCode"
+        app:argType="string"
+        android:defaultValue="default"/>
+    <argument
+        android:name="date"
+        app:argType="string"
+        android:defaultValue="default"/>
+    </fragment>
+</navigation>

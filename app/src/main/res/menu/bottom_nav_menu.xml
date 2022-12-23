@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_covid_tracker"
+        android:icon="@drawable/virus"
+        android:title="@string/title_covid_tracker" />
+
+    <item
+        android:id="@+id/navigation_vaccine_certificate"
+        android:icon="@drawable/ic_baseline_arrow_downward_24"
+        android:title="@string/title_vaccine_certificate" />
+
+    <item
+        android:id="@+id/navigation_vaccine_finder"
+        android:icon="@drawable/vaccine"
+        android:title="@string/title_vaccine_finder" />
+
+</menu>

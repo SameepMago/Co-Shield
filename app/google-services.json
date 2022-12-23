@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1087492088406",
+    "project_id": "coshield-c5459",
+    "storage_bucket": "coshield-c5459.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1087492088406:android:6a03ed77e332cbebd7d1f7",
+        "android_client_info": {
+          "package_name": "com.ymca.co_shield"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1087492088406-pej9si0khseiiigfpc7np4io7vgst5u4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsbVMrTEzZEH_E_5HjczJb3UgE1oJLdXs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1087492088406-pej9si0khseiiigfpc7np4io7vgst5u4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
